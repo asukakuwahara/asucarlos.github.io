@@ -1,0 +1,17 @@
+$header-color: #B8294B;
+
+.title {
+  color:white;
+}
+
+.bg-aurora {
+  height: 100vh;
+  color: #fff;
+  background: -webkit-linear-gradient(70deg, $header-color 30%, rgba(0, 0, 0, 0) 30%), url('../images/header.jpg');
+  background: -o-linear-gradient(70deg, $header-color 30%, rgba(0, 0, 0, 0) 30%), url('../images/header.jpg');
+  background: -moz-linear-gradient(70deg, $header-color 30%, rgba(0, 0, 0, 0) 30%), url('../images/header.jpg');
+  background: linear-gradient(70deg, $header-color 30%, rgba(0, 0, 0, 0) 30%), url('../images/header.jpg');
+  background-size: cover;
+  background-position: 50% 21%;
+  text-align: right;
+}
