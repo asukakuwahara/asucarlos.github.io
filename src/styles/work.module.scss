@@ -1,0 +1,37 @@
+.work-container{
+  text-align:center;
+  align-items: center;
+  align-content: center;
+  .each-work-container{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+    .work-img-container{
+      object-fit: cover;
+      width: 70%;
+      padding: 1rem;
+      background-color: white;
+
+    }
+    .work-desc-container{
+      width: 30%;    
+      background-color: white;
+
+    .work-title{
+
+
+    }
+
+    .work-techstack{
+
+    }
+
+    .work-description{
+
+    }
+  }
+
+  }
+}
