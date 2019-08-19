@@ -17,8 +17,10 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
+    <h1>Asuka Kuwahara</h1>
+    <h2>Web Developer</h2>
+
     <Navbar />
-      
     </div>
   </header>
 )

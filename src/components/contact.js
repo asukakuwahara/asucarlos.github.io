@@ -8,14 +8,13 @@ import "../styles/layout.scss"
 import "../styles/work.module.scss"
 
 
-const Footer = ({ children }) => {
+const Contact = ({ children }) => {
   return (
-    <footer>
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
-    </footer>
+    <div>
+      <h1>Contact me</h1>
+      <a href="/">this is Contact</a>
+    </div>
   )
 }
 
-export default Footer
+export default Contact
