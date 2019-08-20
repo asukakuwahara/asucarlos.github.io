@@ -1,0 +1,36 @@
+.about-container{
+  background-color: #FFDF6D;
+  padding-top: 20vh;
+
+
+  .about-header{
+    text-align: center;
+  }
+  .about-content-container{
+  display:flex;
+  justify-content: center;
+  padding-bottom: 20vh;
+
+
+    .about-img-container{
+      max-width: 25%;
+      width: 30%;
+
+      img{
+        border-radius: 10%;
+        width: 30%;
+      }
+    }
+
+    .about-description{
+      border-radius: 20px 0 20px 0;
+      padding: 1rem;
+      position: relative;
+      right: 6rem;
+      max-width:25%;
+      max-height: 25%;
+      align-self: flex-end;
+      background-color: #E8F2F3;
+    }
+  }
+}
