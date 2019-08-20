@@ -23,14 +23,18 @@
     }
 
     .about-description{
-      border-radius: 20px 0 20px 0;
       padding: 1rem;
-      position: relative;
-      right: 6rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       max-width:25%;
-      max-height: 25%;
-      align-self: flex-end;
-      background-color: #E8F2F3;
+      align-self: flex-start;
+      p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+      }
+
+      button{
+        align-self: flex-end;
+      }
     }
   }
 }
