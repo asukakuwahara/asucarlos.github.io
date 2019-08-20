@@ -24,7 +24,7 @@ const Work = ({ children }) => {
     <div className={style.workContainer}>
       <h1 className={style.workHeader}>Work</h1>
       <div className={style.eachWorkContainer}>
-        <div className={style.workImgContainer}style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
+        <div className={style.workImgContainer} >
           <Img fluid={data.placeholderImage.childImageSharp.fluid}/>
         </div>
         <div className={style.workDescContainer}>
@@ -34,8 +34,32 @@ const Work = ({ children }) => {
           <a href="https://bidlyy.herokuapp.com/">View live</a>
           <a href="https://github.com/asucarlos/bidly">See code</a>
         </div>
+        </div>
+        <div className={style.eachWorkContainer}>
+        <div className={style.workImgContainer}>
+          <Img fluid={data.placeholderImage.childImageSharp.fluid}/>
+        </div>
+        <div className={style.workDescContainer}>
+          <h2 className={style.workTitle}>Tweeter</h2>
+          <p className={style.workTechstack}>Express Node MongoDB EJS</p>
+          <p className={style.workDescription}>Tweeter is a full-stach twitter clone app which allows users to tweet</p>
+          <a href="https://bidlyy.herokuapp.com/">View live</a>
+          <a href="https://github.com/asucarlos/bidly">See code</a>
+        </div>
+        </div>
+        <div className={style.eachWorkContainer}>
+        <div className={style.workImgContainer}>
+          <Img fluid={data.placeholderImage.childImageSharp.fluid}/>      
+        </div>
+        <div className={style.workDescContainer}>
+          <h2 className={style.workTitle}>Jungle</h2>
+          <p className={style.workTechstack}>Express Node PostgreSQL React</p>
+          <p className={style.workDescription}>Bidly is a full-stack strategy game based auctioning app that allows users to buy and sell items</p>
+          <a href="https://tweeter-aska.herokuapp.com/">View live</a>
+          <a href="https://github.com/asucarlos/tweeter">See code</a>
+        </div>
+        </div>
       </div>
-    </div>
   )
 }
 

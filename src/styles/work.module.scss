@@ -1,4 +1,8 @@
+$background-white: #E3EFF0;
+
 .work-container{
+  padding-top: 20vh;
+  background-color: #92B76A;
   text-align:center;
   align-items: center;
   align-content: center;
@@ -10,14 +14,21 @@
     padding-bottom: 70px;
     .work-img-container{
       object-fit: cover;
-      width: 70%;
+      width: 50%;
       padding: 1rem;
-      background-color: white;
+      background-color: $background-white;
 
+      img{
+      }
     }
     .work-desc-container{
-      width: 30%;    
-      background-color: white;
+      border-radius: 20px 0 20px 0;
+      padding: 1rem;
+      position: relative;
+      right: 10%;
+      width: 30%;   
+      align-self: flex-end;
+      background-color: $background-white;
 
     .work-title{
 
