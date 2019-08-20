@@ -9,8 +9,9 @@ import style from "../styles/about.module.scss"
 
 
 const About = ({ children }) => {
+  
   return (
-    <div className={style.aboutContainer}>
+    <div className={style.aboutContainer}  id="about">
       <h1 className={style.aboutHeader}>About</h1>
         <div className={style.aboutContentContainer}>
           <div className={style.aboutImgContainer}>

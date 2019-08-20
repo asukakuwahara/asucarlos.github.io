@@ -6,18 +6,11 @@ import Navbar from "./navbar"
 
 const Header = ({ siteTitle }) => (
   <header className={headerStyle.bgHeader}>
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-    <h1>Asuka Kuwahara</h1>
-    <h2>Web Developer</h2>
-
-    <Navbar />
+    <div className={headerStyle.title}>
+      <h1>Asuka Kuwahara</h1>
+      <h2>Web Developer</h2>
     </div>
+    <Navbar />
   </header>
 )
 

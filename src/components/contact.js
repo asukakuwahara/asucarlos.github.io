@@ -10,7 +10,7 @@ import style from "../styles/contact.module.scss"
 
 const Contact = ({ children }) => {
   return (
-    <div className={style.contactContainer}>
+    <div className={style.contactContainer} id="contact">
       <h1>Contact me</h1>
       <a href="/">this is Contact</a>
       <h2>kuwahara.mee@gmail.com</h2>

@@ -6,17 +6,17 @@ import headerStyle from "../styles/header.module.scss"
 const Navbar = ({ siteTitle }) => (
   <nav>
       <h2>
-      <Link to="/" className={headerStyle.navbarLink}>
+      <Link to="#about" className={headerStyle.navbarLink}>
         About
       </Link>
       </h2>
       <h2>      
-      <Link to="/" className={headerStyle.navbarLink}>
+      <Link to="#work" className={headerStyle.navbarLink}>
         Work
       </Link>
       </h2>
       <h2>
-      <Link to="/" className={headerStyle.navbarLink}>
+      <Link to="#contact" className={headerStyle.navbarLink}>
         Contact
       </Link>
       </h2>
