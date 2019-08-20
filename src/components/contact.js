@@ -5,14 +5,16 @@ import Img from "gatsby-image"
 
 //import components and scss
 import "../styles/layout.scss"
-import "../styles/work.module.scss"
+import style from "../styles/contact.module.scss"
 
 
 const Contact = ({ children }) => {
   return (
-    <div>
+    <div className={style.contactContainer}>
       <h1>Contact me</h1>
       <a href="/">this is Contact</a>
+      <h2>kuwahara.mee@gmail.com</h2>
+      
     </div>
   )
 }

@@ -5,32 +5,21 @@ import headerStyle from "../styles/header.module.scss"
 
 const Navbar = ({ siteTitle }) => (
   <nav>
-    <h1 className={headerStyle.title} style={{ margin: 0 }}>
-      <Link
-        to="/"
-        style={{
-          textDecoration: `none`,
-        }}
-      >
+      <h2>
+      <Link to="/" className={headerStyle.navbarLink}>
         About
       </Link>
-      <Link
-        to="/"
-        style={{
-          textDecoration: `none`,
-        }}
-      >
+      </h2>
+      <h2>      
+      <Link to="/" className={headerStyle.navbarLink}>
         Work
       </Link>
-      <Link
-        to="/"
-        style={{
-          textDecoration: `none`,
-        }}
-      >
+      </h2>
+      <h2>
+      <Link to="/" className={headerStyle.navbarLink}>
         Contact
       </Link>
-    </h1>
+      </h2>
   </nav>
 )
 

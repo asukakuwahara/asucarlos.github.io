@@ -5,11 +5,7 @@ import headerStyle from "../styles/header.module.scss"
 import Navbar from "./navbar"
 
 const Header = ({ siteTitle }) => (
-  <header className={headerStyle.bgAurora}
-    style={{
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header className={headerStyle.bgHeader}>
     <div
       style={{
         margin: `0 auto`,
