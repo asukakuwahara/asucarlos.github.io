@@ -12,26 +12,25 @@ const Contact = ({ children }) => {
   return (
     <div className={style.contactContainer} id="contact">
       <h1>Contact me</h1>
-      <form name="Contact Form" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="Contact Form" />
-      <div>
-        <label>Your Name:</label>
-        <input type="text" name="name" />
-      </div>
-      <div>
-        <label>Your Email:</label>
-        <input type="email" name="email" />
-      </div>
-      <div>
-        <label>Message:</label>
-        <textarea name="message" />
-      </div>
-      <button type="submit">Send</button>
-    </form>
-      <h2>kuwahara.mee@gmail.com</h2>
-      <i class="fab fa-linkedin"></i>
-      <i class="fab fa-github-square"></i>
+      <div className={style.iconContainer}>
+      <a href={"mailto:" + "kuwahara.mee@gmail.com"}>        
+        <i class="far fa-envelope"></i>
+        <p>kuwahara.mee@gmail.com</p>
+      </a>
+      <a href="https://www.linkedin.com/in/asuka-kuwahara/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+        <p>@asuka-kuwahara</p>
+      </a>
+
+      <a href="https://github.com/asucarlos" target="_blank">
+        <i class="fab fa-github-square"></i>
+        <p>@asucarlos</p>
+      </a>
+      <a href="https://www.instagram.com/askarlosnaps/" target="_blank">
       <i class="fab fa-instagram"></i>
+      <p>@askarlosnaps</p>
+      </a>
+      </div>
     </div>
   )
 }

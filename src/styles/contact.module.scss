@@ -1,4 +1,15 @@
 .contact-container{
   background-color: #376B7A;
   text-align:center;
+  height: 25vh;
+
+  .icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  i{
+    font-size: 4rem;
+    padding: 3rem;
+  }
+  }
 }
