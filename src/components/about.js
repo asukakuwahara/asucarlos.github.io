@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -19,7 +20,6 @@ const About = ({ children }) => {
           </div>
           <div className={style.aboutDescription}>
             <p>Hi, I'm Asuka Kuwahara, a Web Developer based in Toronto. I love writing clean code and learning new technologies.  Having recently finished my full-stack development program and Lighthouse Labs, I am currently available for full-time employment.</p>
-            <button>Download Resume</button>
           </div>
       </div>
     </div>
