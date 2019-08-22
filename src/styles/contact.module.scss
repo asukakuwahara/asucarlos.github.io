@@ -3,13 +3,19 @@
   text-align:center;
   height: 25vh;
 
-  .icon-container{
+  .icons-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    .icon-container{
+      display: flex;
   i{
     font-size: 4rem;
     padding: 3rem;
+  }
+  p{
+
+  }
   }
   }
 }

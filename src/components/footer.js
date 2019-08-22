@@ -5,15 +5,13 @@ import Img from "gatsby-image"
 
 //import components and scss
 import "../styles/layout.scss"
-import "../styles/work.module.scss"
+import style from "../styles/footer.module.scss"
 
 
 const Footer = ({ children }) => {
   return (
-    <footer>
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
+    <footer className={style.footer}>
+      © {new Date().getFullYear()}, Asuka Kuwahara
     </footer>
   )
 }
