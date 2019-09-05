@@ -14,7 +14,7 @@ $background-white: #E3EFF0;
     padding-bottom: 70px;
     .work-img-container{
       object-fit: cover;
-      width: 50%;
+      width: 40%;
       padding: 1rem;
       background-color: $background-white;
 
@@ -28,6 +28,8 @@ $background-white: #E3EFF0;
       right: 10%;
       width: 30%;   
       align-self: flex-end;
+      font-family: sans-serif;
+
       background-color: $background-white;
 
     .work-title{
@@ -42,7 +44,29 @@ $background-white: #E3EFF0;
     .work-description{
 
     }
+
+    a{
+      font-size: 1.2rem;
+      padding: 1.2rem;
+      i{
+        font-size: 1.8rem;
+      }
+    }
   }
 
   }
+}
+
+@media (min-width: 830px){
+  .about-content-container{
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .work-img-container{
+    
+  }
+
+
 }

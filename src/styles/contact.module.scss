@@ -9,9 +9,10 @@
     justify-content: center;
     .icon-container{
       display: flex;
-  i{
+      padding: 0 2rem 0 2rem;
+
+    svg{
     font-size: 4rem;
-    padding: 3rem;
   }
   p{
 

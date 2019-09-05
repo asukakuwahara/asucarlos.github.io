@@ -2,6 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithubSquare, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 //import components and scss
 import "../styles/layout.scss"
@@ -14,26 +17,26 @@ const Contact = ({ children }) => {
       <h1>Contact me</h1>
       <div className={style.iconsContainer}>
       <div className={style.iconContainer}>
-        <a href={"mailto:" + "kuwahara.mee@gmail.com"}>        
-        <i class="far fa-envelope"></i>
+        <a href={"mailto:" + "kuwahara.mee@gmail.com"}> 
+        <FontAwesomeIcon icon={faEnvelope}/>       
         <p>kuwahara.mee@gmail.com</p>
         </a>
       </div>
       <div className={style.iconContainer}>
       <a href="https://www.linkedin.com/in/asuka-kuwahara/" target="_blank">
-        <i class="fab fa-linkedin"></i>
+      <FontAwesomeIcon icon={faLinkedin} />               
         <p>@asuka-kuwahara</p>
       </a>
       </div>
       <div className={style.iconContainer}>
       <a href="https://github.com/asucarlos" target="_blank">
-        <i class="fab fa-github-square"></i>
+        <FontAwesomeIcon icon={faGithubSquare} />       
         <p>@asucarlos</p>
       </a>
       </div>
       <div className={style.iconContainer}>
       <a href="https://www.instagram.com/askarlosnaps/" target="_blank">
-      <i class="fab fa-instagram"></i>
+      <FontAwesomeIcon icon={faInstagram} />       
       <p>@askarlosnaps</p>
       </a>
       </div>
