@@ -16,6 +16,7 @@ import Work from "./work"
 import Footer from "./footer"
 import Contact from "./contact"
 
+
 import "../styles/layout.scss"
 
 const Layout = ({ children }) => {

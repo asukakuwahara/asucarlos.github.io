@@ -37,6 +37,12 @@ nav{
   position: fixed;
   text-align: start;
   left: 0;
-  bottom: 25%;
+  bottom: 40%;
   margin: 1rem;
+}
+
+@media (max-width: 840px){
+  nav{
+    color: red;
+  }
 }
