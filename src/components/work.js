@@ -27,7 +27,6 @@ const Work = ({ children }) => {
     }
   }`)
 
-  // console.log(data.allImageSharp.edges)
   return (
     <div className={style.workContainer} id="work">
       <h1 className={style.workHeader}>Work</h1>
