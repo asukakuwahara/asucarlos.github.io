@@ -5,7 +5,6 @@ $about-background: #FFDF6D;
   background-color: $about-background;
   padding-top: 20vh;
 
-
   .about-header{
     text-align: center;
   }
@@ -14,14 +13,13 @@ $about-background: #FFDF6D;
   justify-content: center;
   padding-bottom: 20vh;
 
-
     .about-img-container{
       max-width: 25%;
       width: 30%;
 
       img{
         border-radius: 10%;
-        width: 30%;
+        // width: 30%;
       }
     }
 
@@ -51,6 +49,40 @@ $about-background: #FFDF6D;
         -webkit-box-shadow: 6px 5px 24px #666666;  
         -moz-box-shadow: 6px 5px 24px #666666;  
         box-shadow: 1px 5px 10px #666666;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .about-container{
+    .about-content-container{
+      flex-direction: column;
+      align-items: center;
+      .about-img-container{
+        max-width: 50%;
+        width: 50%;
+      }
+      .about-description{
+        align-self: center;
+        max-width: 50%;
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 840px){
+  .about-container{
+    .about-content-container{
+      .about-description{
+        align-self: center;
+        max-width: 60%;
+        width: 60%;
+        p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        }
       }
     }
   }

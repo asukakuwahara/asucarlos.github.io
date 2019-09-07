@@ -37,8 +37,8 @@ const Work = ({ children }) => {
         <div className={style.workDescContainer}>
           <h2 className={style.workTitle}>Bidly</h2>
           <p className={style.workTechstack}>Express Node PostgreSQL React</p>
-          <p className={style.workDescription}>Bidly is a full-stack strategy game based auctioning app that allows users to buy and sell items</p>
-          <p className={style.workDescription}>Login with email: anna@gmail.com password: pass123 to see full functions</p>
+          <p className={style.workDescription}>Bidly is a strategy game based auctioning app that allows users to buy and sell items <br />
+          Login with email: anna@gmail.com password: pass123 to see full functions</p>
           <a href="https://bidlyy.herokuapp.com/" target="_blank"><FontAwesomeIcon icon={faEye} />View live</a>
           <a href="https://github.com/asucarlos/bidly" target="_blank"><FontAwesomeIcon icon={faGithubSquare} />See code</a>
         </div>
