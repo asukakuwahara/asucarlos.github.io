@@ -58,26 +58,6 @@ $background-white: #E3EFF0;
 
 @media screen and (max-width: 1024px){
   .work-container{
-
-    .each-work-container{
-
-      .work-img-container{
-
-      }
-      .work-desc-container{
-      border-radius: 0 0 20px 20px;
-        p{
-          font-size: 1rem;
-          line-height: 1.5rem;
-
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 1024px){
-  .work-container{
     .each-work-container{
       flex-direction: column;
 
@@ -85,6 +65,7 @@ $background-white: #E3EFF0;
         width: 70%;
       }
       .work-desc-container{
+        border-radius: 0 0 20px 20px;
         align-self: center;
         width: 70%;
         right: auto;

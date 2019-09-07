@@ -22,7 +22,9 @@ nav,
 section,
 summary {
   display: block;
+  z-index: 9999;
 }
+
 audio,
 canvas,
 progress,
@@ -46,7 +48,7 @@ a {
 }
 a:active,
 a:hover {
-  outline-width: 0;
+  outline-width: 10;
 }
 abbr[title] {
   border-bottom: none;

@@ -39,10 +39,50 @@ nav{
   left: 0;
   bottom: 40%;
   margin: 1rem;
+
 }
 
-@media (max-width: 840px){
+
+
+@media screen and (max-width: 1024px) {
+header {
+width: 100%;
   nav{
-    color: red;
+    top: 0;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    z-index: 9999;
+    bottom:auto;
+    margin:auto;
+
+    a{
+      color:#E3EFF0;
+    }
+  }
+}
+
+}
+
+
+@media screen and (max-width: 860px) {
+  .title{
+    h1{
+      font-size: 4rem;
+    }
+    h2{
+      font-size: 2rem;
+    }
+
+  }
+}
+@media screen and (max-width: 400px) {
+  header{
+    a{
+      font-size: 1.3rem;
+    }
   }
 }
