@@ -7,15 +7,14 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 //import components
 import Header from "./header"
 import About from "./about"
-import Work from "./work"
+import Work from "./works"
 import Footer from "./footer"
 import Contact from "./contact"
-
 
 import "../styles/layout.scss"
 
