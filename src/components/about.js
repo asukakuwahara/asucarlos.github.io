@@ -25,7 +25,7 @@ const About = ({ children }) => {
             bootcamp, I was a translator. I had been interested in programming
             before long and I found this blog post on how she changed her career
             to Frontend developer, and I decided to follow her path. I love the
-            'aha' moment in coding and am passionate about making process
+            "aha" moment in coding and am passionate about making process
             efficient.
           </p>
         </div>
