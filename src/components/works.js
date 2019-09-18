@@ -49,6 +49,7 @@ const Works = ({ children }) => {
 
         return (
           <Work
+            key={name}
             name={name}
             description={description}
             tech_stack={tech_stack}
