@@ -1,35 +1,35 @@
-.contact-container{
+.contact-container {
   padding-top: 20vh;
   padding-bottom: 20vh;
-  background-color: #376B7A;
-  text-align:center;
+  background-color: #376b7a;
+  text-align: center;
 
-  .icons-container{
+  .icons-container {
     text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    .icon-container{
+    .icon-container {
       display: flex;
       padding: 0 2rem 0 2rem;
 
-      svg{
-        color:#E3EFF0;
+      svg {
+        color: #e3eff0;
         font-size: 4rem;
       }
-      a{
-        color:#E3EFF0;
-        font-family: 'Courier New', Courier, monospace;
+      a {
+        color: #e3eff0;
+        font-family: "Courier New", Courier, monospace;
         text-decoration: none;
       }
     }
   }
 }
 
-@media screen and (max-width: 1024px){
-  .contact-container{
-    .icons-container{
-      display:flex;
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    .icons-container {
+      display: flex;
       flex-direction: column;
       align-items: center;
     }

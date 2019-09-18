@@ -5,14 +5,14 @@ import headerStyle from "../styles/header.module.scss"
 import { StaticQuery, useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./navbar"
-import styled from 'styled-components'
-import BackgroundImage from 'gatsby-background-image'
+import styled from "styled-components"
+import BackgroundImage from "gatsby-background-image"
 
 const BackgroundSection = ({ className }) => (
   <StaticQuery
     query={graphql`
       query {
-        desktop: file(relativePath: { eq: "header.jpg" }) {
+        desktop: file(relativePath: { eq: "images/header.jpg" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
@@ -25,7 +25,7 @@ const BackgroundSection = ({ className }) => (
       // Set ImageData.
       const imageData = data.desktop.childImageSharp.fluid
       return (
-            <BackgroundImage
+        <BackgroundImage
           Tag="section"
           className={className}
           fluid={imageData}
@@ -38,7 +38,7 @@ const BackgroundSection = ({ className }) => (
             </div>
             <Navbar />
           </header>
-          </BackgroundImage>
+        </BackgroundImage>
       )
     }}
   />

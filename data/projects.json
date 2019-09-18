@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Bidly",
+    "tech_stack": "Express Node PostgreSQL React",
+    "image": "./images/bidly.png",
+    "description": "strategy game based auctioning app that allows users to buy and sell items Login with email: anna@gmail.com password: pass123 to see full functions.",
+    "live": "https://bidlyy.herokuapp.com/",
+    "github": "https://github.com/asucarlos/bidly"
+  },
+  {
+    "name": "Tweeter",
+    "tech_stack": "Express Node MongoDB EJS",
+    "image": "./images/tweeter.png",
+    "description": "Tweeter is a full-stack twitter clone app which allows users to tweet",
+    "live": "https://tweeter-aska.herokuapp.com/",
+    "github": "https://github.com/asucarlos/tweeter"
+  },
+  {
+    "name": "Jungle",
+    "tech_stack": "Ruby on Rails PostgreSQL Stripe",
+    "image": "./images/jungle-rails.png",
+    "description": "Jungle is a mini e-commerce application built with Ruby on Rails",
+    "live": "",
+    "github": "https://github.com/asucarlos/jungle-rails"
+  }
+]
