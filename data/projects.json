@@ -16,6 +16,14 @@
     "github": "https://github.com/asucarlos/tweeter"
   },
   {
+    "name": "Chatty",
+    "tech_stack": "React Express Websocket",
+    "image": "./images/chatty.png",
+    "description": "Chatty is a real-time chat application",
+    "live": "",
+    "github": "https://github.com/asucarlos/chatty"
+  },
+  {
     "name": "Jungle",
     "tech_stack": "Ruby on Rails PostgreSQL Stripe",
     "image": "./images/jungle-rails.png",

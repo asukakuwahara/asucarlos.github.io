@@ -19,14 +19,18 @@ const Work = ({ name, description, image, github, live, tech_stack }) => {
         <h2 className={style.workTitle}>{name}</h2>
         <p className={style.workTechstack}>{tech_stack}</p>
         <p className={style.workDescription}>{description}</p>
-        <a href={live} target="_blank">
-          <FontAwesomeIcon icon={faEye} />
-          View live
-        </a>
-        <a href={github} target="_blank">
-          <FontAwesomeIcon icon={faGithubSquare} />
-          See code
-        </a>
+        <div className={style.workLinkContainer}>
+          {live !== "" && (
+            <a href={live} target="_blank">
+              <FontAwesomeIcon icon={faEye} />
+              View live
+            </a>
+          )}
+          <a href={github} target="_blank">
+            <FontAwesomeIcon icon={faGithubSquare} />
+            See code
+          </a>
+        </div>
       </div>
     </div>
   )
