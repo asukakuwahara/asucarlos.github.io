@@ -1,9 +1,16 @@
 $background-white: #e3eff0;
+$header-color: #b8294b;
+$pink: #f2ced8;
+$grey: #8ea3a8;
+$yellow: #f7bc60;
+$purple: #e0d7f6;
+$orange: #f29979;
+$dark-grey: #454745;
 
 .work-container {
   padding-top: 20vh;
   padding-bottom: 20vh;
-  background-color: #92b76a;
+  background-color: $purple;
   text-align: center;
   align-items: center;
   align-content: center;
@@ -69,6 +76,10 @@ $background-white: #e3eff0;
           font-size: 1rem;
           line-height: 1.5rem;
         }
+      }
+      .work-link-container {
+        display: flex;
+        flex-direction: column;
       }
     }
   }

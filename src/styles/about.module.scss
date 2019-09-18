@@ -1,68 +1,62 @@
-$header-color: #B8294B;
-$about-background: #FFDF6D;
+$header-color: #b8294b;
+$about-background: #ffdf6d;
+$header-color: #b8294b;
+$pink: #f2ced8;
+$grey: #8ea3a8;
+$yellow: #f7bc60;
+$purple: #e0d7f6;
+$orange: #f29979;
+$dark-grey: #454745;
 
-.about-container{
-  background-color: $about-background;
+.about-container {
+  background-color: #f5f5f5;
   padding-top: 20vh;
-
-  .about-header{
+  margin: 1rem;
+  .about-header {
     text-align: center;
   }
-  .about-content-container{
-  display:flex;
-  justify-content: center;
-  padding-bottom: 20vh;
+  .about-content-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20vh;
 
-    .about-img-container{
+    .about-img-container {
+      margin-right: 1rem;
       max-width: 25%;
       width: 30%;
 
-      img{
+      img {
         border-radius: 10%;
       }
     }
 
-    .about-description{
+    .about-description {
       padding: 1rem;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      max-width:25%;
+
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      max-width: 35%;
       align-self: flex-start;
-      p{
+
+      p {
         font-size: 1.2rem;
         line-height: 2rem;
       }
-
-      button{
-        font-size: 1.2rem;
-        background-color: $header-color;
-        color: white;
-        border: none;
-        padding: 0.5rem;
-        -webkit-border-radius: 28;
-        -moz-border-radius: 28;  
-        border-radius: 28px;
-        align-self: flex-end;
-      }
-
-      button:hover{
-        -webkit-box-shadow: 6px 5px 24px #666666;  
-        -moz-box-shadow: 6px 5px 24px #666666;  
-        box-shadow: 1px 5px 10px #666666;
-      }
     }
   }
 }
 
-@media screen and (max-width: 1080px){
-  .about-container{
-    .about-content-container{
+@media screen and (max-width: 1080px) {
+  .about-container {
+    .about-content-container {
       flex-direction: column;
       align-items: center;
-      .about-img-container{
+
+      .about-img-container {
         max-width: 50%;
         width: 50%;
       }
-      .about-description{
+      .about-description {
+        margin-left: 1rem;
         align-self: center;
         max-width: 50%;
         width: 50%;
@@ -71,16 +65,16 @@ $about-background: #FFDF6D;
   }
 }
 
-@media screen and (max-width: 840px){
-  .about-container{
-    .about-content-container{
-      .about-description{
+@media screen and (max-width: 840px) {
+  .about-container {
+    .about-content-container {
+      .about-description {
         align-self: center;
         max-width: 60%;
         width: 60%;
-        p{
-        font-size: 1rem;
-        line-height: 1.5rem;
+        p {
+          font-size: 1rem;
+          line-height: 1.5rem;
         }
       }
     }
