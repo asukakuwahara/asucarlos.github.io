@@ -1,6 +1,6 @@
-exports.createPages = async ({ actions, graphql, reporter }) => {
-  const result = await graphql()
-}
+// exports.createPages = async ({ actions, graphql, reporter }) => {
+//   const result = await graphql()
+// }
 
 /**
  * Implement Gatsby's Node APIs in this file.
