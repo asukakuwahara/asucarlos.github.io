@@ -1,87 +1,126 @@
-$header-color: #B8294B;
+$header-color: #b8294b;
+$pink: #f2ced8;
+$grey: #8ea3a8;
+$yellow: #f7bc60;
+$purple: #e0d7f6;
+$orange: #f29979;
+
+@mixin dark-overlay {
+  &:after {
+    content: "";
+    width: 50%;
+    height: auto;
+    position: absolute;
+    z-index: -1; // Take note of this negative z-index and compare to each article's positive z-index. This helps your content to show up over the overlay.
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+}
 
 .title {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  h1 {
+    font-size: 5rem;
+    text-shadow: 0px 4px 0 rgba(18, 86, 136, 0.11);
+  }
+
+  h2 {
+    font-size: 3rem;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    h1{
-      font-size: 5rem;
-    }
-
-    h2{
-      font-size: 3rem;
-    }
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    text-shadow: 0px 4px 0 rgba(18, 86, 136, 0.11);
+  }
 }
 
 .bg-header {
   height: 100vh;
   color: #fff;
-  background: -webkit-linear-gradient(70deg, $header-color 30%, rgba(0, 0, 0, 0) 30%), url('../images/header.jpg');
-  background: -o-linear-gradient(70deg, $header-color 30%, rgba(0, 0, 0, 0) 30%), url('../images/header.jpg');
-  background: -moz-linear-gradient(70deg, $header-color 30%, rgba(0, 0, 0, 0) 30%), url('../images/header.jpg');
-  background: linear-gradient(70deg, $header-color 30%, rgba(0, 0, 0, 0) 30%), url('../images/header.jpg');
+  background: -webkit-linear-gradient(70deg, $grey 30%, rgba(0, 0, 0, 0) 30%),
+    url("../data/images/header.jpg");
+  background: -o-linear-gradient(70deg, $grey 30%, rgba(0, 0, 0, 0) 30%),
+    url("../data/images/header.jpg");
+  background: -moz-linear-gradient(70deg, $grey 30%, rgba(0, 0, 0, 0) 30%),
+    url("../data/images/header.jpg");
+  background: linear-gradient(70deg, $grey 30%, rgba(0, 0, 0, 0) 30%),
+    url("../data/images/header.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 21%;
 }
 
-.navbar-link{
+.navbar-link {
   text-decoration: none;
   padding: 1rem;
 }
 
-nav{
-  position: fixed;
-  text-align: start;
-  left: 0;
-  bottom: 40%;
-  margin: 1rem;
+// nav {
+//   position: fixed;
+//   text-align: start;
+//   left: 0;
+//   bottom: 40%;
+//   margin: 1rem;
+// }
 
+nav {
+  top: 0;
+  background-color: black;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  z-index: 9999;
+  bottom: auto;
+  margin: auto;
+
+  a {
+    color: #e3eff0;
+  }
 }
 
-
-
 @media screen and (max-width: 1024px) {
-header {
-width: 100%;
-  nav{
-    top: 0;
-    background-color: black;
-    display: flex;
-    position: fixed;
+  header {
     width: 100%;
-    justify-content: space-evenly;
-    padding-top: 1rem;
-    z-index: 9999;
-    bottom:auto;
-    margin:auto;
+    nav {
+      top: 0;
+      background-color: black;
+      display: flex;
+      position: fixed;
+      width: 100%;
+      justify-content: space-evenly;
+      padding-top: 1rem;
+      z-index: 9999;
+      bottom: auto;
+      margin: auto;
 
-    a{
-      color:#E3EFF0;
+      a {
+        color: #e3eff0;
+      }
     }
   }
 }
 
-}
-
-
 @media screen and (max-width: 860px) {
-  .title{
-    h1{
+  .title {
+    h1 {
       font-size: 4rem;
     }
-    h2{
+    h2 {
       font-size: 2rem;
     }
-
   }
 }
 @media screen and (max-width: 400px) {
-  header{
-    a{
+  header {
+    a {
       font-size: 1.3rem;
     }
   }
