@@ -1,9 +1,22 @@
+$white: #e3eff0;
+$header-color: #b8294b;
+$pink: #f2ced8;
+$grey: #8ea3a8;
+$yellow: #f7bc60;
+$purple: #e0d7f6;
+$orange: #f29979;
+$dark-grey: #454745;
+
 .contact-container {
   padding-top: 20vh;
   padding-bottom: 20vh;
   background-color: #376b7a;
+  background-color: rgba($color: $dark-grey, $alpha: 1);
   text-align: center;
 
+  h1 {
+    color: $white;
+  }
   .icons-container {
     text-decoration: none;
     display: flex;
@@ -14,11 +27,11 @@
       padding: 0 2rem 0 2rem;
 
       svg {
-        color: #e3eff0;
+        color: $white;
         font-size: 4rem;
       }
       a {
-        color: #e3eff0;
+        color: $white;
         font-family: "Courier New", Courier, monospace;
         text-decoration: none;
       }

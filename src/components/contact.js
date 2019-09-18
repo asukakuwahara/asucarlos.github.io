@@ -27,7 +27,7 @@ const Contact = ({ children }) => {
       <h1>Contact me</h1>
       <div className={style.iconsContainer}>
         <div className={style.iconContainer}>
-          <a href={"mailto:" + "kuwahara.mee@gmail.com"}>
+          <a href={"mailto:" + `${contactInfo.email}`}>
             <FontAwesomeIcon icon={faEnvelope} />
             <p>{contactInfo.email}</p>
           </a>
