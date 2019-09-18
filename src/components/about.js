@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 //import components and scss
-import Image from "./image"
+import Image from "../elements/profile_image"
 import "../styles/layout.scss"
 import style from "../styles/about.module.scss"
 
