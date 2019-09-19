@@ -51,10 +51,20 @@ $dark-grey: #454745;
         font-size: 1.2rem;
         padding: 1.2rem;
         text-decoration: none;
+        background-color: green;
+        margin: 1.2rem;
+        border-radius: 40px;
+        color: white;
 
         i {
-          font-size: 1.8rem;
+          font-size: 2rem;
+          padding: 1rem;
         }
+      }
+
+      a:hover {
+        -webkit-box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
+        box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
       }
     }
   }
