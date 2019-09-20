@@ -32,9 +32,13 @@ $dark-grey: #454745;
     }
 
     .about-description {
+      background-color: #bca4a6;
+      -webkit-box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
+      box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
       padding: 1rem;
+      margin: 1rem;
+      font-family: sans-serif;
 
-      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
       max-width: 35%;
       align-self: flex-start;
 
