@@ -10,7 +10,6 @@ $dark-grey: #454745;
 .work-container {
   padding-top: 20vh;
   padding-bottom: 20vh;
-  // background-color: $purple;
   background-color: rgba($color: $dark-grey, $alpha: 0.4);
   text-align: center;
   align-items: center;
@@ -26,6 +25,8 @@ $dark-grey: #454745;
       width: 40%;
       padding: 1rem;
       background-color: $background-white;
+      -webkit-box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
+      box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
     }
     .work-desc-container {
       border-radius: 20px 0 20px 0;
@@ -34,29 +35,19 @@ $dark-grey: #454745;
       right: 10%;
       width: 30%;
       align-self: flex-end;
-      font-family: sans-serif;
       -webkit-box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
       box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
-
       background-color: $background-white;
 
-      .work-title {
-      }
-
-      .work-techstack {
-      }
-
-      .work-description {
-      }
-
       a {
-        font-size: 1.2rem;
-        padding: 0.8rem;
+        font-size: 1.1rem;
+        padding: 0.9rem;
         text-decoration: none;
         background-color: rgba(42, 94, 38, 1);
         margin: 1.5rem;
         border-radius: 40px;
         color: white;
+        font-weight: 200;
 
         i {
           font-size: 2rem;
@@ -86,6 +77,8 @@ $dark-grey: #454745;
         align-self: center;
         width: 70%;
         right: auto;
+        -webkit-box-shadow: 6px 20px 20px -5px rgba(133, 130, 133, 0.82);
+        box-shadow: 6px 20px 20px -5px rgba(133, 130, 133, 0.82);
         p {
           font-size: 1rem;
           line-height: 1.5rem;
