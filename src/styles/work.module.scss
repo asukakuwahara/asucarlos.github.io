@@ -1,6 +1,6 @@
 $background-white: #e3eff0;
 $header-color: #b8294b;
-$pink: #f2ced8;
+$pink: #bca4a6;
 $grey: #8ea3a8;
 $yellow: #f7bc60;
 $purple: #e0d7f6;
@@ -43,9 +43,9 @@ $dark-grey: #454745;
         font-size: 1.1rem;
         padding: 0.9rem;
         text-decoration: none;
-        background-color: rgba(42, 94, 38, 1);
+        background-color: $pink;
         margin: 1.5rem;
-        border-radius: 40px;
+        border-radius: 5px;
         color: white;
         font-weight: 200;
 
@@ -56,7 +56,7 @@ $dark-grey: #454745;
       }
 
       a:hover {
-        background-color: rgb(61, 122, 57);
+        color: $dark-grey;
         -webkit-box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
         box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
       }
