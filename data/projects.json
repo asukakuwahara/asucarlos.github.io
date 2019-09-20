@@ -3,7 +3,7 @@
     "name": "Bidly",
     "tech_stack": "Express Node PostgreSQL React",
     "image": "./images/bidly.png",
-    "description": "strategy game based auctioning app that allows users to buy and sell items Login with email: anna@gmail.com password: pass123 to see full functions.",
+    "description": "Strategy game based auctioning app that allows users to buy and sell items. Login with email: anna@gmail.com password: pass123 or register to see full functions.",
     "live": "https://bidlyy.herokuapp.com/",
     "github": "https://github.com/asucarlos/bidly"
   },
@@ -21,7 +21,7 @@
     "image": "./images/chatty.png",
     "description": "Chatty is a real-time chat application",
     "live": "",
-    "github": "https://github.com/asucarlos/chatty"
+    "github": "https://github.com/asucarlos/chatty-app"
   },
   {
     "name": "Jungle",
