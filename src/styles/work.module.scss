@@ -20,6 +20,9 @@ $dark-grey: #454745;
     display: flex;
     align-items: center;
     padding-bottom: 70px;
+    h2 {
+      font-weight: 400;
+    }
     .work-img-container {
       object-fit: cover;
       width: 40%;
