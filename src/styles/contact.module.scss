@@ -18,19 +18,24 @@ $dark-grey: #454745;
     color: $white;
   }
   .icons-container {
+    margin: 0 20%;
     text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     .icon-container {
+      text-align: center;
       display: flex;
-      padding: 0 2rem 0 2rem;
+      flex: 1;
+      border-top: transparent solid 10px;
+      border-bottom: transparent solid 10px;
 
       svg {
         color: $white;
         font-size: 4rem;
       }
       a {
+        margin: auto;
         color: $white;
         font-weight: 200;
         text-decoration: none;
