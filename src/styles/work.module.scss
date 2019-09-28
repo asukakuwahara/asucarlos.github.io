@@ -1,6 +1,6 @@
-$background-white: #e3eff0;
+$background-white: #fff;
 $header-color: #b8294b;
-$pink: #bca4a6;
+$pink: #f9cccf;
 $grey: #8ea3a8;
 $yellow: #f7bc60;
 $purple: #e0d7f6;
@@ -8,7 +8,7 @@ $orange: #f29979;
 $dark-grey: #454745;
 
 .work-container {
-  padding-top: 20vh;
+  padding-top: 10vh;
   background-color: rgba($color: black, $alpha: 0.3);
   text-align: center;
   align-items: center;
@@ -52,7 +52,7 @@ $dark-grey: #454745;
           background-color: $pink;
           margin: 1.5rem;
           border-radius: 5px;
-          color: white;
+          color: black;
           font-weight: 200;
           width: 10rem;
         }
@@ -60,7 +60,6 @@ $dark-grey: #454745;
           margin-right: 0.5rem;
         }
         a:hover {
-          color: $dark-grey;
           -webkit-box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
           box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
         }

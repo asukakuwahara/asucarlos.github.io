@@ -9,7 +9,7 @@ $orange: #f29979;
 $dark-grey: #454745;
 
 .about-container {
-  background-color: rgba($color: #bac2c2, $alpha: 0.4);
+  background-color: #e3e7e7;
 
   padding-top: 20vh;
   .about-header {
@@ -31,7 +31,7 @@ $dark-grey: #454745;
     }
 
     .about-description {
-      background-color: #bca4a6;
+      background-color: #fff;
       -webkit-box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
       box-shadow: 6px 5px 20px -5px rgba(133, 130, 133, 0.82);
       padding: 1rem;
