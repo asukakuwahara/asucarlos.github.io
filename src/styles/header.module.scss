@@ -93,23 +93,6 @@ a.scroll-button {
   padding: 1rem;
 }
 
-header nav {
-  top: 0;
-  background-color: black;
-  display: flex;
-  position: fixed;
-  width: 100%;
-  justify-content: space-evenly;
-  padding-top: 1rem;
-  z-index: 9999;
-  bottom: auto;
-  margin: auto;
-
-  a {
-    color: #fff;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   header {
     width: 100%;
