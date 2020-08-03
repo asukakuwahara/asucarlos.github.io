@@ -16,6 +16,14 @@
     "github": "https://github.com/asucarlos/tweeter"
   },
   {
+    "name": "Ayus",
+    "tech_stack": "WordPress Figma",
+    "image": "./images/ayus.png",
+    "description": "Ayus is a single-page website/blog for my friend in Japan to promote her breathing and yoga classes. Designed with Figma and customized on top of a free WordPress template.",
+    "live": "https://www.ayusbreathe.com/",
+    "github": "https://www.figma.com/file/kbFyKai5ffboANuyTikbT3/breath-mobile-ver.3?node-id=0%3A1"
+  },
+  {
     "name": "Chatty",
     "tech_stack": "React Express Websocket",
     "image": "./images/chatty.png",

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithubSquare } from "@fortawesome/free-brands-svg-icons"
+import { faGithubSquare, faFigma } from "@fortawesome/free-brands-svg-icons"
 import { faEye } from "@fortawesome/free-solid-svg-icons"
 
 //import components and scss
@@ -26,10 +26,17 @@ const Work = ({ name, description, image, github, live, tech_stack }) => {
               View live
             </a>
           )}
-          <a href={github} target="_blank">
-            <FontAwesomeIcon icon={faGithubSquare} />
-            See code
-          </a>
+          {github.includes("https://github.com") ? (
+            <a href={github} target="_blank">
+              <FontAwesomeIcon icon={faGithubSquare} />
+              See code
+            </a>
+          ) : (
+            <a href={github} target="_blank">
+              <FontAwesomeIcon icon={faFigma} />
+              See Design
+            </a>
+          )}
         </div>
       </div>
     </div>

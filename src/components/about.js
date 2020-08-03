@@ -18,11 +18,11 @@ const About = ({ children }) => {
         </div>
         <div className={style.aboutDescription}>
           <p>
-            Hi, I'm Asuka Kuwahara, a Web Developer based in Toronto. I love
-            writing clean code and learning new technologies. Having recently
-            finished my full-stack development program and Lighthouse Labs, I am
-            currently available for full-time employment. Prior to this
-            bootcamp, I worked as a translator. I had been interested in
+            Hi, I'm Asuka Kuwahara, a Software Developer based in Toronto. I
+            love writing clean code and learning new technologies. Having
+            recently finished my full-stack development program and Lighthouse
+            Labs, I am currently available for full-time employment. Prior to
+            this bootcamp, I worked as a translator. I had been interested in
             programming before long and I found this blog post on how she
             changed her career to Frontend developer with no background in tech,
             and I decided to follow her path, I figured I like coding! I love
