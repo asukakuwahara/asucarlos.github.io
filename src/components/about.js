@@ -1,14 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 //import components and scss
 import Image from "../elements/profile_image"
 import "../styles/layout.scss"
 import style from "../styles/about.module.scss"
 
-const About = ({ children }) => {
+const About = () => {
   return (
     <div className={style.aboutContainer} id="about">
       <h1 className={style.aboutHeader}>About</h1>
@@ -39,7 +36,7 @@ const About = ({ children }) => {
       >
         <path
           fill="#B2B2B2"
-          fill-opacity="1"
+          fillOpacity="1"
           d="M0,160L60,144C120,128,240,96,360,112C480,128,600,192,720,234.7C840,277,960,299,1080,282.7C1200,267,1320,213,1380,186.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         ></path>
       </svg>

@@ -6,8 +6,7 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 //import components
 import Header from "./header"
@@ -18,7 +17,7 @@ import Contact from "./contact"
 
 import "../styles/layout.scss"
 
-const Layout = ({ children }) => {
+const Layout = () => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -38,10 +37,6 @@ const Layout = ({ children }) => {
       <Footer />
     </>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout

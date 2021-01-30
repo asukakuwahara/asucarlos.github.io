@@ -1,6 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithubSquare, faFigma } from "@fortawesome/free-brands-svg-icons"
@@ -21,18 +19,18 @@ const Work = ({ name, description, image, github, live, tech_stack }) => {
         <p className={style.workDescription}>{description}</p>
         <div className={style.workLinkContainer}>
           {live !== "" && (
-            <a href={live} target="_blank">
+            <a href={live} target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faEye} />
               View live
             </a>
           )}
           {github.includes("https://github.com") ? (
-            <a href={github} target="_blank">
+            <a href={github} target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faGithubSquare} />
               See code
             </a>
           ) : (
-            <a href={github} target="_blank">
+            <a href={github} target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faFigma} />
               See Design
             </a>

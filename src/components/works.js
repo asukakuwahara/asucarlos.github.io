@@ -1,16 +1,11 @@
 import React from "react"
-import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithubSquare } from "@fortawesome/free-brands-svg-icons"
-import { faEye } from "@fortawesome/free-solid-svg-icons"
 
 //import components and scss
 import style from "../styles/work.module.scss"
 import Work from "./work"
 
-const Works = ({ children }) => {
+const Works = () => {
   const data = useStaticQuery(graphql`
     {
       allProjectsJson {
@@ -66,7 +61,7 @@ const Works = ({ children }) => {
       >
         <path
           fill="#454745"
-          fill-opacity="1"
+          fillOpacity="1"
           d="M0,64L60,64C120,64,240,64,360,101.3C480,139,600,213,720,229.3C840,245,960,203,1080,160C1200,117,1320,75,1380,53.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         ></path>
       </svg>

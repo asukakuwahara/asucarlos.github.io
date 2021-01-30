@@ -1,5 +1,4 @@
-import { Link, StaticQuery, graphql } from "gatsby"
-import PropTypes from "prop-types"
+import { Link } from "gatsby"
 import React, { useState } from "react"
 import navStyle from "../styles/navbar.module.scss"
 import Logo from "../elements/logo"
@@ -12,11 +11,15 @@ const Navbar = () => {
       <Link to="/" className={navStyle.imgContainer}>
         <Logo />
       </Link>
-      <div className={navStyle.lines} onClick={() => setMenuOpen(!menuOpen)}>
+      <button
+        className={navStyle.lines}
+        onClick={() => setMenuOpen(!menuOpen)}
+        onKeyDown={e => e.key === "Enter" && setMenuOpen}
+      >
         <span className={navStyle.line}></span>
         <span className={navStyle.line}></span>
         <span className={navStyle.line}></span>
-      </div>
+      </button>
       <h2 className={navStyle.navbarLink}>
         <Link to="#about">About</Link>
       </h2>
