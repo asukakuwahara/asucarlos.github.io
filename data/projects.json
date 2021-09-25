@@ -5,7 +5,7 @@
     "image": "./images/bidly.png",
     "description": "Strategy game based auctioning app that allows users to buy and sell items. Login with email: anna@gmail.com password: pass123 or register to see full functions.",
     "live": "https://bidlyy.herokuapp.com/",
-    "github": "https://github.com/asucarlos/bidly"
+    "github": "https://github.com/asukakuwahara/bidly"
   },
   {
     "name": "Tweeter",
@@ -13,7 +13,7 @@
     "image": "./images/tweeter.png",
     "description": "Tweeter is a full-stack twitter clone app which allows users to tweet",
     "live": "https://tweeter-aska.herokuapp.com/",
-    "github": "https://github.com/asucarlos/tweeter"
+    "github": "https://github.com/asukakuwahara/tweeter"
   },
   {
     "name": "Ayus",
@@ -29,7 +29,7 @@
     "image": "./images/chatty.png",
     "description": "Chatty is a real-time chat application",
     "live": "",
-    "github": "https://github.com/asucarlos/chatty-app"
+    "github": "https://github.com/asukakuwahara/chatty-app"
   },
   {
     "name": "Jungle",
@@ -37,6 +37,6 @@
     "image": "./images/jungle-rails.png",
     "description": "Jungle is a mini e-commerce application built with Ruby on Rails",
     "live": "",
-    "github": "https://github.com/asucarlos/jungle-rails"
+    "github": "https://github.com/asukakuwahara/jungle-rails"
   }
 ]

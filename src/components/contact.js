@@ -39,7 +39,7 @@ const Contact = () => {
         <div className={style.iconContainer}>
           <a href={contactInfo.github} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithubSquare} />
-            <p>@asucarlos</p>
+            <p>@asukakuwahara</p>
           </a>
         </div>
         <div className={style.iconContainer}>
