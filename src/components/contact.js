@@ -12,7 +12,7 @@ const Contact = () => {
   const contactInfo = {
     email: "kuwahara.mee@gmail.com",
     linkedin: "https://www.linkedin.com/in/asuka-kuwahara/",
-    github: "https://github.com/asucarlos",
+    github: "https://github.com/asukakuwahara",
     devTo: "https://dev.to/asucarlos",
   }
 
